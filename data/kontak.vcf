@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Toko Followers Sosmed</title>
+  <style>
+    /* Reset & dasar */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f2f5f7;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #1d3557;
+      color: #f1faee;
+      padding: 20px 15px;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    .subtitle {
+      text-align: center;
+      color: #457b9d;
+      font-weight: 600;
+      margin: 0 0 30px 0;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px 50px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+    }
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+      color: #1d3557;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+    .ig { background: #C13584; }
+    .tt { background: #000000; }
+    .fb { background: #1877F2; }
+    .yt { background: #FF0000; }
+    .shopee { background: #ee4d2d; }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    li {
+      padding: 6px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 0.95rem;
+    }
+    li span {
+      float: right;
+      font-weight: 600;
+      color: #1d3557;
+    }
+    .note {
+      margin-top: 15px;
+      font-size: 0.85rem;
+      color: #555;
+      font-style: italic;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 10px;
+      background: #1d3557;
+      color: #f1faee;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+    @media (max-width: 600px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+      .card h3 {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    PILIHAN TEPAT UNTUK SOSMED
+  </header>
+  <div class="subtitle">
+    RESPON CEPAT, PROSES TEPAT, KUALITAS BERGARANSI
+  </div>
+  <main>
+    <section class="card">
+      <h3><span class="icon ig">IG</span> Followers IG <small>(Auto Active)</small></h3>
+      <ul>
+        <li>100 Followers <span>5rb</span></li>
+        <li>200 Followers <span>11rb</span></li>
+        <li>500 Followers <span>25rb</span></li>
+        <li>1.000 Followers <span>32rb</span></li>
+        <li>10.000 Followers <span>250rb</span></li>
+        <li>50.000 Followers <span>950rb</span></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3><span class="icon tt">TT</span> Followers TikTok</h3>
+      <ul>
+        <li>100 Followers <span>10rb</span></li>
+        <li>200 Followers <span>15rb</span></li>
+        <li>500 Followers <span>30rb</span></li>
+        <li>1.000 Followers <span>40rb</span></li>
+        <li>5.000 Followers <span>160rb</span></li>
+        <li>10.000 Followers <span>290rb</span></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3><span class="icon fb">FB</span> Followers Facebook <small>(Auto Active)</small></h3>
+      <ul>
+        <li>100 Followers <span>8rb</span></li>
+        <li>200 Followers <span>14rb</span></li>
+        <li>500 Followers <span>30rb</span></li>
+        <li>1.000 Followers <span>45rb</span></li>
+        <li>5.000 Followers <span>160rb</span></li>
+        <li>10.000 Followers <span>280rb</span></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3><span class="icon ig">IG</span> Likes IG</h3>
+      <ul>
+        <li>100 Likes <span>3rb</span></li>
+        <li>200 Likes <span>5rb</span></li>
+        <li>300 Likes <span>8rb</span></li>
+        <li>500 Likes <span>12rb</span></li>
+        <li>1.000 Likes <span>20rb</span></li>
+        <li>5.000 Likes <span>30rb</span></li>
+        <li>10.000 Likes <span>50rb</span></li>
+        <li>25.000 Likes <span>100rb</span></li>
+        <li>50.000 Likes <span>175rb</span></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3><span class="icon tt">TT</span> Paket FYP TikTok</h3>
+      <ul>
+        <li>100rb Views + 1.000 Likes <span>40rb</span></li>
+        <li>500rb Views + 2.000 Likes <span>70rb</
